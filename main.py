@@ -7,7 +7,7 @@ import yfinance as yf
 import threading
 
 api_key = ''
-secrets = 'HGjOG11kvHczvPZhSJvdxJTNmb0erufO3VdUStR5'
+secrets = ''
 base_url = 'https://paper-api.alpaca.markets'
 api = tradeapi.REST(api_key, secrets, 'https://api.alpaca.markets')
 symbol = "QQQ"
